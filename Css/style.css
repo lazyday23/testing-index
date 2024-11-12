@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+.teamimage{
+    float:left ;
+    width: 33.3%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+image{
+    margin-top: 0;
+}
+.header{
+    color:white;
+    text-align: center;
+}
+#nav{
+    background-color: maroon;
+    text-align: center;
+    border-left: black 1px;
+    padding: 5px;
+}
+#nav a{
+    padding: 2px 40px;
+    color: white;
+    text-decoration: none;
+    border-left: yellow 2px solid;
+    border-right: yellow 2px solid;
+    display: inline-block;
+}
+
+#nav a:hover{
+    color: black;
+    cursor: wait;
+}
+.body{
+    padding: 20px;
+    text-align: center;
+    margin: 2px;
+    margin-top: 5px;
+    background-repeat: none;
+    background-size: cover;
+    color: blanchedalmond ;
+    box-sizing: border-box;
+}
+.body h4{
+    font-size: 40px;
+    font-style: italic;
+    color: yellow;
+    background-color: url();
+}
+
+.logo{
+    height: 100px;
+    border-radius:  100%; 
+    display: inline-block;
+}
+.bodybutton{
+    color: yellow;
+    background-color: black;
+    border-radius: 20px;
+    cursor: wait;
+    height: 40px;
+    box-shadow: none;
+}
+.bodybutton a{
+    text-decoration: none;
+    background-color: black;  
+}
+#article-header{
+    text-align: center;
+    font-size: xx-large;
+    color: yellow;
+    font-style: italic;
+    margin-top: 0;
+    
+}
+#article-header:hover{
+    color: yellowgreen;
+}
+.border-article{
+    border-bottom: 2px solid grey hidden;
+    border-top: 2px solid grey;
+    padding: 10px;
+
+}
+.cointainer{
+    border: grey 2px solid hidden  ;
+    padding: 20px;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#contactheader{
+    font-size: 40px;
+    font-style: italic ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+.cointainer-content{
+    border: red solid 2px hidden ;
+    margin: auto;
+    padding: 5px 200px;
+    padding-top: 2px;
+    background-color: black;
+    text-align: left;
+    padding-left: 30px ; 
+     
+}
+.cointainer-content p{
+    color: grey;
+}
+#messages{
+    background-color: #000 ;
+    outline-style: none;
+    color: yellow;
+}
+.cointainer-content input{
+    border: none;
+    border-bottom: 2px solid white;
+    width: 250px;
+    background-color: black;
+    outline-style: none;
+    color: yellow;
+}
+
+.image{
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+    border: 2px solid red hidden;
+}
+.image-pic{
+     border: grey 2px solid;
+     float: left;
+     width: 33.3%;
+     padding: 5px;
+          
+}
+.indeximage{
+    margin-left:  20%;
+    margin-bottom: 0;
+    padding: 0;
+}
+.image-container{
+    border: grey 2px solid hidden;
+    margin: 2px 2px ;
+    padding: 2px 2px;
+}
+.serivescontent{
+    color: maroon ;
+    font-style: italic;
+    font-weight: bolder;
+    list-style: none;
+    font-size: 20px;
+    margin: 5px ;
+    padding: 0 0 ;
+}
+.Teamcontent{
+    color: yellow;
+    text-align: center;
+    font-style: italic;
+}
+.Teamcontent H1{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.Teamcontent p{
+    font-size: 20px;
+}
+
+.serivescontent p{
+     font-size: 50px;
+     color: yellow;
+     font-style: normal;
+}
+.box{
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+    border: 2px solid green hidden ;
+}
+
+.box-text{
+    padding: 10% ;
+    margin-left:10%;
+    border: 2px solid red hidden  ;
+}
+.indeximage2{
+    border: 2px solid grey hidden;
+    width: 679px ;
+} 
+.loginbutton{
+    background-color: grey;
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.loginbutton:hover{
+    color: yellow;
+    background-color: tomato;
+}
+
+.footer-contacts{
+     padding: 20px ;    
+}
+.footer-contacts img{
+    padding-left: 20px ;
+    border-radius: 20px;
+    width: 100px;
+}
+.footer{
+    background-color:maroon;
+    text-align:center;
+    color:white;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    background-image: url(images/social-media-5995251.png);
+}
+.footer-contacts img{
+    height: 50px;
+}
